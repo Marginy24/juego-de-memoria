@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap');
+
+:root {
+    --bg-color: #1E1E1E50;
+    --title-color: #F9E000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.section-principal {
+    background-image: url("./assets/img/background-luffy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+.container-left {
+    margin: 30px 50px 70px 70px;
+    background-color: var(--bg-color);
+    width: 450px;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.container-left p {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: var(--title-color);
+    font-weight: bold;
+}
+.cards img {
+    width: 100px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+.cards div:hover {
+    cursor: pointer;
+    background-color: #F9E00080;
+    border-radius: 5px;
+}
+.container-right {
+    width: 400px;
+    height: 340px;
+    background-color: var(--bg-color);
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container-right div {
+    width: 380px;
+    height: 80px;
+    background-color: var(--bg-color);
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.container-right p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
