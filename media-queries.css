@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+    .section-principal {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    
+}
+@media (max-width: 600px) {
+    .section-principal {
+        max-width: 100%;
+    }
+    .container-right {
+        max-width: 95%;
+        margin-left: 20px;
+    }
+}
